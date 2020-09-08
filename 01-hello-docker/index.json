@@ -30,7 +30,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboard": [{"name": "Display Port 80", "port": 80}, {"name": "Display Port 8080", "port": 8080}]
+
   },
   "backend": {
     "imageid": "ubuntu"
