@@ -2,7 +2,7 @@
   "title": "01. Hello Docker",
   "description": "Introduction to docker, run your first docker container and learn basic docker commands",
   "difficulty": "Beginner",
-  "time": "2 hoursn 30 minutes",
+  "time": "2 hours 30 minutes",
   "details": {
     "steps": [
       {
