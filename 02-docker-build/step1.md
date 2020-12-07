@@ -2,7 +2,18 @@
 
 ສ້າງໄຟລ໌ index.js
 
-```
+## ກ່ອນອືນໝົດ ໃຫ້ສ້າງໂປຣເຈັກ NodeJS ຂຶ້ນມາກ່ອນ
+
+`top`{{
+    mkdir nodeapp
+    cd nodeapp
+    npm init
+    npm install --save express
+}}
+
+ສ້າງໄຟລ໌ app.js
+
+```js
 const express = require('express');
 const app = express();
     app.get('/', (req, res) => {
@@ -14,9 +25,9 @@ app.listen(port, () => {
 });
 ```
 
-ສ້າງ start script ໃນ package.json
+ເພີ່ມ start script ໃນ package.json
 
-```
+```js
 ...
 "scripts": {
     "start": "node index.js",

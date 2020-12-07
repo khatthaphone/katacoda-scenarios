@@ -1,4 +1,4 @@
-## Run NGINX APP With Docker
+# Run NGINX APP With Docker
 
 ເຮົາສ້າງ Nginx ດ້ວຍ Docker
 `docker run -p 80:80 nginx`

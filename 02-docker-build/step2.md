@@ -1,7 +1,8 @@
 # ສ້າງ Docker Image
 
 ສ້າງໄຟລ໌ Dockerfile
-```
+
+```dockerfile
 FROM node:12
 WORKDIR /app
 COPY package.json .
