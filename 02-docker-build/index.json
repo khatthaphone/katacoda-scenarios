@@ -1,5 +1,5 @@
 {
-  "title": "Build your own docker image",
+  "title": "02. Build your own docker image",
   "description": "",
   "difficulty": "Beginner",
   "time": "30 minutes",
@@ -22,7 +22,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}]
   },
   "backend": {
     "imageid": "ubuntu"

@@ -6,19 +6,19 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Step 1: Run nginx with Docker",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2: Basic Docker Commands",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Step 3: Modify Webpage",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Step 4: Useful commands",
         "text": "step4.md"
       }
     ],
@@ -33,7 +33,6 @@
     "uilayout": "terminal",
     "showdashboard": true,
     "dashboards": [{"name": "Display 80", "port": 80}, {"name": "Display 8080", "port": 8080}]
-
   },
   "backend": {
     "imageid": "ubuntu"
